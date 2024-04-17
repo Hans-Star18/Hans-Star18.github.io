@@ -70,6 +70,10 @@
                 }
             }, 1000);
 
+            player.on('ended', function() {
+                alert('Video telah selesai');
+            });
+
             // player.on('timeupdate', function() {
             //     let currentTime = player.currentTime();
 
